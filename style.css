@@ -1,0 +1,169 @@
+  
+  
+  /* Reset some default styles */
+        body, h1, h2, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: aliceblue;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Navigation bar styling */
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        /* Cover picture styling */
+        .cover {
+            width: 100%;
+            height: 300px;
+            background: url('cover-image.jpg') center/cover;
+        }
+
+        /* Main content container */
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        /* Article styling */
+        article {
+            margin-bottom: 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        /* Paragraph list styling */
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            
+        }
+
+
+
+
+            /* Right-side articles styling */
+        .right-side {
+            float: right;
+            width: 40%; /* Adjust the width as needed */
+            margin-left: 20px; /* Add margin for spacing */
+        }
+
+        /* Clear float to ensure proper layout */
+        .container:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .header-button {
+
+            background-color: hsl(165, 43%, 68%);
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;  
+
+        }
+    
+
+
+
+        header {
+            background-color: hsl(194, 44%, 89%);
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+
+
+        article button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        article button:hover {
+            background-color: #45a049;
+        }
+
+        #image-gallery {
+        margin-top: 30px;
+        }
+
+        .gallery-item {
+        text-align: center;
+        margin-bottom: 20px;
+        }
+
+        .gallery-item img {
+        max-width: 100%;
+        height: auto;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+    }
+
+
+
+    #quotes {
+
+        margin-top: 30px;
+
+    }
+    
+    blockquote {
+
+        font-style: italic;
+        margin-bottom: 20px;
+    }
+
+
+    #post-form-container input {
+
+        width: 100%;
+        margin: 5px 0 20px 0;
+        padding: 10px;
+
+    }
+
+    #post-form-container {
+
+
+        max-width: 300px;
+        margin: auto;
+        display: none;
+    }
